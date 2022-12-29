@@ -7,7 +7,7 @@ import { PostsModule } from './posts/posts.module';
 
 @Module({
   imports: [ConfigModule.forRoot(), UsersModule, PostsModule],
-  controllers: [AppController],
+  controllers: [],
   providers: [AppService],
 })
 export class AppModule {}
